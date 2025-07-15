@@ -4,7 +4,7 @@ import { RegistrosPage } from './pages/RegistrosPage';
 import { SalidasPage } from './pages/SalidasPage';
 import { VentasPage } from './pages/VentasPage';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Router>
