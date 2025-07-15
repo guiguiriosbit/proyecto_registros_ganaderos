@@ -24,8 +24,8 @@ export function StatsCard({ title, value, icon: Icon, trend, color = 'blue' }: S
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md">
-      <div className="p-6">
+    <div className="bg-white overflow-hidden shadow rounded-lg">
+      <div className="p-5">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-sm font-medium text-gray-600">{title}</p>
